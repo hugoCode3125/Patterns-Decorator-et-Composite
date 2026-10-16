@@ -9,10 +9,6 @@ public class File extends Component {
 
     @Override
     public void print() {
-        String tab="";
-        for (int i = 0; i < level; i++) {
-            tab+="\t";
-        }
-        System.out.println(tab + "File : " +name);
+        System.out.println(getTab() + "File : " +name);
     }
 }

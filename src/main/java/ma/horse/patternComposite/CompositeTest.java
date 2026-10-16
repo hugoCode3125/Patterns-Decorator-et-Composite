@@ -9,6 +9,9 @@ public class CompositeTest {
         entities.addChild(new File("entity1.txt"));
         entities.addChild(new File("entity2.txt"));
         entities.addChild(new Folder("hugo"));
+        folder.addChild(new File("hugo1.txt"));
+        folder.print();
+        folder.removeChild(entities);
         folder.print();
     }
 }

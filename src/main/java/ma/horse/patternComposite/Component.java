@@ -7,6 +7,13 @@ public abstract class Component {
     public Component(String name) {
         this.name = name;
     }
+    public String getTab(){
+        String tab="";
+        for (int i = 0; i < level; i++) {
+            tab+="\t";
+        }
+        return tab;
+    }
 
     public abstract void print();
 }

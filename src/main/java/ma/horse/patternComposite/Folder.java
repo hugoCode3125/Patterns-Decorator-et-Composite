@@ -11,11 +11,8 @@ public class Folder extends Component{
 
     @Override
     public void print() {
-        String tab="";
-        for (int i = 0; i < level; i++) {
-            tab+="\t";
-        }
-        System.out.println(tab + "Folder : " +name);
+
+        System.out.println(getTab() + "Folder : " +name);
 
         for (Component component : components) {
             component.print();
