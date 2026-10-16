@@ -1,9 +1,9 @@
 package ma.horse;
 
-import ma.horse.composant.Boisson;
-import ma.horse.composant.Sumatra;
-import ma.horse.decorator.Caramel;
-import ma.horse.decorator.Chocolat;
+import ma.horse.patternDecorator.composant.Boisson;
+import ma.horse.patternDecorator.composant.Sumatra;
+import ma.horse.patternDecorator.decorator.Caramel;
+import ma.horse.patternDecorator.decorator.Chocolat;
 
 
 public class Main {

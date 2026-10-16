@@ -1,6 +1,6 @@
-package ma.horse.decorator;
+package ma.horse.patternDecorator.decorator;
 
-import ma.horse.composant.Boisson;
+import ma.horse.patternDecorator.composant.Boisson;
 
 public class Caramel extends Decorator {
 

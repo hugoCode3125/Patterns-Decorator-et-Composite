@@ -1,4 +1,4 @@
-package ma.horse.composant;
+package ma.horse.patternDecorator.composant;
 
 public class Deca extends Boisson {
 
